@@ -78,6 +78,14 @@ function greaterThan10(obj) {
 
 //Code Here
 
+function double(obj){
+  for(let key in obj) {
+    obj[key] *= 2
+    //obj[key] = obj[key] * 2
+  } 
+  return obj
+}
+
 
 
 ////////// PROBLEM 4 //////////
